@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Callback";
+}
+
+<h2>Callback</h2>
+
+@if (ViewBag.Error != null)
+{
+    <h4>An unexpected error has occurred:</h4>
+    <pre>@ViewBag.Error</pre>
+}
+
+<h4>Response:</h4>
+<pre>@ViewBag.Response</pre>
